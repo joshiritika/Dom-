@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(220, 129, 129);
+  
+}
+#card{
+    height:300px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius:10%;
+    padding:10px;
+    position:absolute;
+    left:30px;
+    
+}
+#card img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+#card h2{
+    font-size:25px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+#card h5{
+    font-size:25px;
+    color:rgb(0, 123, 255);
+    font-weight:700;
+    margin-top:15px;
+    text-align: center;
+}
+#btn2{
+    background-color: rgb(79, 112, 72);
+    color:black;
+    font-weight:50px;
+    border-radius:10px;
+    border:none;
+    margin-top: 20px;
+    margin-left:50px;
+    padding:7px;
+    
+   
+}
+
+/*for second DOM manipulation*/
+
+#container{
+    height:300px;
+    width:200px;
+    background-color:aliceblue;
+    border-radius:10%;
+    position:relative;
+    overflow:hidden;
+    position:absolute;
+    left:250px;
+
+    
+
+}
+#container img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+#container i{
+    font-size:60px;
+    color:white;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    opacity:0;
+    transition:all ease 0.5s;
+}
+#heart{
+    font-size:40px;
+    color:white;
+    position:absolute;
+    top:530px;
+    left:250px;
+    
+    
+}
